@@ -1,0 +1,29 @@
+{
+	"name": "ts-ink",
+	"version": "0.0.0",
+	"license": "MIT",
+	"bin": "dist/cli.js",
+	"type": "module",
+	"engines": {
+		"node": ">=16"
+	},
+	"scripts": {
+		"start": "node dist/cli.js",
+		"build": "tsc",
+		"dev": "tsc --watch"
+	},
+	"files": [
+		"dist"
+	],
+	"dependencies": {
+		"commander": "^11.0.0",
+		"ink": "^4.1.0",
+		"react": "^18.2.0"
+	},
+	"devDependencies": {
+		"@sindresorhus/tsconfig": "^3.0.1",
+		"@types/node": "^20.4.2",
+		"@types/react": "^18.0.32",
+		"chalk": "^5.2.0"
+	}
+}
